@@ -1,0 +1,16 @@
+{
+
+
+"scripts": {
+
+  "dev": "nodemon src/index.ts", 
+  "start": "tsc && node dist/index.js" 
+},
+
+  "dependencies": {},
+  "devDependencies": { 
+    
+    "@types/node": "^17.0.40", 
+    "nodemon": "^2.0.16" 
+  }
+}
