@@ -3,13 +3,12 @@ const game = require("./chessBoardStates.json")
 let  games = [game.game1, game.game2, game.game3];
 let arr= [[], [], [], [], [], [], [], []];
 
-for(let g=0; g<games.length;g++){
-    let array = (Object.values(games[g]));
+for(let i=0; i<games.length;i++){
+    let array = (Object.values(games[i]));
     startGame(array);
     printGame();
-    console.log('*************************************')
+    console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxx')
 }
-
 function startGame(array){
   let a=0;
   while(a<array.length){
@@ -26,18 +25,15 @@ function startGame(array){
              j++;
              }
            }
-
            a++;
-
         }
     }
-
-}
+ }
 }
 function printGame(){
     for (const row of arr) {
 		const line = row.join(' | ');
 		console.log(line);
-		console.log('--------------------------- ');
+		console.log('------------------------------- ');
 	}
 }
