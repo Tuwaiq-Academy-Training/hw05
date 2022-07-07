@@ -1,0 +1,17 @@
+{
+  "name": "homework5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index2.js",
+  "scripts": {
+    "dev": "nodemon src/index2.ts",
+    "start": "tsc && node dist/index2.js"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "nodemon": "^2.0.16"
+  }
+}
